@@ -156,3 +156,9 @@
   position: relative;
   z-index: 49;
 }
+.register-m-t{
+  margin-top: 50px;
+}
+.register-padding{
+   padding: 0rem  2rem  2rem 2rem;
+}

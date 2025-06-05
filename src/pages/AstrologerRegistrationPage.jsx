@@ -71,7 +71,7 @@ const AstrologerRegistrationPage = () => {
         transition={{ duration: 0.5 }}
         className="w-full max-w-3xl"
       >
-        <form onSubmit={handleSubmit(onSubmit)} noValidate>
+        <form onSubmit={handleSubmit(onSubmit)} noValidate className='register-m-t'>
           <Card className="shadow-2xl rounded-xl border border-yellow-300 overflow-hidden">
             <CardHeader className="bg-gradient-to-r from-yellow-400 to-amber-500 text-center p-10">
               <motion.div
@@ -314,15 +314,16 @@ const AstrologerRegistrationPage = () => {
                 )}
               </div>
             </CardContent>
-
-            <CardFooter className="bg-yellow-200 flex flex-col md:flex-row justify-between items-center gap-4 p-6">
-              <Button
+             <div className="register-padding">
+                <Button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full md:w-auto bg-yellow-500 hover:bg-yellow-600 text-white font-semibold"
+                 className="w-full cosmic-gradient text-white"
               >
                 {isSubmitting ? 'Submitting...' : 'Register'}
               </Button>
+              </div>
+            <CardFooter className="bg-yellow-200 flex flex-col md:flex-row justify-between items-center gap-4 p-6">
               <Link
                 to="/login"
                 className="text-yellow-700 hover:underline font-semibold"
