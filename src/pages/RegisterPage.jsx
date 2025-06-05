@@ -13,8 +13,8 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "../components/ui/Card";
-import { Button } from "../components/ui/button";
+} from "@/components/ui/Card";
+import { Button } from "@/components/ui/button";
 
 const RegisterPage = () => {
   const {
