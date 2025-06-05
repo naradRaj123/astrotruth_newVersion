@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import axios from "axios";
 import { Mail, Lock, User, Phone } from "lucide-react";
-import { Input } from "../components/ui/Input";
+import { Input } from "../components/ui/input";
 import { Label } from "../components/ui/Label";
 import {
   Card,
