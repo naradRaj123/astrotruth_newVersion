@@ -150,7 +150,7 @@ const RegisterPage = () => {
             <p className="text-sm text-muted-foreground">
               Already have an account?{" "}
               <Link
-                to="/login"
+                to="/user-login"
                 className="font-medium text-primary hover:underline"
               >
                 Log in

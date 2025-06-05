@@ -325,7 +325,7 @@ const AstrologerRegistrationPage = () => {
               </div>
             <CardFooter className="bg-yellow-200 flex flex-col md:flex-row justify-between items-center gap-4 p-6">
               <Link
-                to="/login"
+                to="/astro-login"
                 className="text-yellow-700 hover:underline font-semibold"
               >
                 Already have an account? Login
