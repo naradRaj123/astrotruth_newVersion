@@ -4,8 +4,8 @@ import { Link, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import axios from "axios";
 import { Mail, Lock, User, Phone } from "lucide-react";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/Label";
+import { Input } from "../components/ui/input";
+import { Label } from "../components/ui/label";
 import {
   Card,
   CardContent,
@@ -13,8 +13,8 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/Card";
-import { Button } from "@/components/ui/button";
+} from "../components/ui/card";
+import { Button } from "../components/ui/button";
 
 const RegisterPage = () => {
   const {
