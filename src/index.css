@@ -162,3 +162,9 @@
 .register-padding{
    padding: 0rem  2rem  2rem 2rem;
 }
+
+@media(max-width:767px){
+  .hide-btn-mobile{
+      display: none;
+  }
+}
