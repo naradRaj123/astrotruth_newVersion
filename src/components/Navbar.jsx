@@ -73,7 +73,7 @@ const Navbar = () => {
                 </>
               ) : (
                 <>
-                  <Link to="/login">
+                  {/* <Link to="/login">
                     <Button variant="ghost" className="text-gray-700 hover:text-primary">
                       User Login
                     </Button>
@@ -82,8 +82,8 @@ const Navbar = () => {
                     <Button variant="ghost" className="text-gray-700 hover:text-primary">
                      Astro Login
                     </Button>
-                  </Link>
-                  <Link to="/register">
+                  </Link> */}
+                  <Link to="/user-register">
                     <Button className="cosmic-gradient text-white">
                       <User className="mr-2 h-4 w-4" /> User Register
                     </Button>

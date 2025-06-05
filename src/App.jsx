@@ -19,9 +19,9 @@ function App() {
         <Layouts>
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="/login" element={<LoginPage />} />
+            <Route path="/user-login" element={<LoginPage />} />
             <Route path="/astro-login" element={<AstroLogin />} /> 
-            <Route path="/register" element={<RegisterPage />} />
+            <Route path="/user-register" element={<RegisterPage />} />
             <Route path="/user-dashboard" element={<UserDashboard />} />
             <Route path="/astro-dashboard" element={<AstrologerDashboard />} /> 
             <Route path="/astro-register" element={<AstrologerRegistrationPage />} /> 
