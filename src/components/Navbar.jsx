@@ -173,20 +173,20 @@ const Navbar = () => {
               </>
             ) : (
               <>
-                <Link to="/login" onClick={() => setIsOpen(false)}>
+                <Link to="/user-login" onClick={() => setIsOpen(false)}>
                   <Button variant="ghost" className="text-gray-700 hover:text-primary w-full justify-start px-3 py-2">
-                    Login
+                     User Login
                   </Button>
                 </Link>
-                <Link to="/register" onClick={() => setIsOpen(false)}>
+                <Link to="/user-register" onClick={() => setIsOpen(false)}>
                   <Button className="cosmic-gradient text-white w-full mt-2">
-                    <User className="mr-2 h-4 w-4" /> Register
+                    <User className="mr-2 h-4 w-4" /> User Register
                   </Button>
                 </Link>
-                <Link to="/astro-register" onClick={() => setIsOpen(false)}>
+                <Link to="/astro-register" onClick={() => setIsOpen(false)} className="hide-btn-mobile">
                   <Button className="cosmic-gradient text-white w-full mt-2">
                     <User className="mr-2 h-4 w-4" /> Astro Register
-                  </Button>
+                  </Button> 
                 </Link>
               </>
             )}
